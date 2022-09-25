@@ -1,0 +1,56 @@
+.paper{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: 100vh;
+    
+}
+.box-in-paper{
+    background-image: url('./Mars.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.select-btn{
+    display: flex;
+    margin-left: 292px;
+    margin-top:10px;
+    
+}
+.selectAll{
+    width: 100px;
+    border-radius: 10px;
+}
+.btn-btn{
+    width: 160px;
+    padding: 0;
+    border-radius: 10px;
+    text-align: center;
+}
+.btn{
+    width: 100px;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+}
+.text-about-mars{
+    text-indent: 20px
+}
+a{
+    text-decoration: none;
+}
+.img-box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+   
+}
+.img-mars{
+    width: 200px;
+    height: 200px;
+}
+
+.img-mars:hover{
+    width: 500px;
+    height: 500px;
+}
+
