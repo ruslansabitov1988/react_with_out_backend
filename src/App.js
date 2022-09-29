@@ -21,9 +21,8 @@ function App() {
           <Route path="/artist" element={<Artist/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/check" element={<Check/>} />
-
-          
       </Routes>
+      
     </BrowserRouter>
     
   );

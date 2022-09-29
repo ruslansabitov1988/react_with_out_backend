@@ -1,11 +1,12 @@
 import React, {useState} from "react";
 import ModalReact from "../components/ModalReact"
+import "./Check.css"
 const Check = ()=>{
     const [openModal, setOpenModal]= useState(false)
 
 
     return(
-        <div>
+        <div className="check-tab">
             <h1> Wellcom </h1>
             <button className="openModalBtn" 
                 onClick={()=>{setOpenModal(true)
